@@ -21,22 +21,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun addScreens() {
-        createButton("Activity with AlertDialog") {
+        createButton("Activity with AlertDialog usecase") {
             val intent = Intent(this, AlertDialogActivity::class.java)
             startActivity(intent)
         }
 
-        createButton("Activity with DialogFragment") {
+        createButton("Activity with DialogFragment usecase") {
             val intent = Intent(this, DialogFragmentActivity::class.java)
             startActivity(intent)
         }
 
-        createButton("Activity with Fragment") {
+        createButton("Activity with Fragment usecase") {
             val intent = Intent(this, FragmentActivity::class.java)
             startActivity(intent)
         }
 
-        createButton("Transparent Activity") {
+        createButton("Transparent Activity usecase") {
             val intent = Intent(this, TransparentActivity::class.java)
             startActivity(intent)
         }
